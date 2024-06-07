@@ -1,0 +1,58 @@
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid rgb(144, 138, 138);
+}
+
+.logo{
+    width: 120px;
+}
+
+.nav-items > ul{
+    font-size: 20px;
+    display: flex;
+    list-style: none;
+}
+
+.nav-items > ul > li{
+    padding: 10px;
+    margin: 10px;
+
+}
+
+.search{
+    padding: 8px;
+}
+
+.res-card{
+    width: 180px;
+    background-color: #f0f0f0;
+    margin: 5px;
+    padding: 10px;
+    /* border: 1px solid black; */
+    /* border-radius: 5px; */
+}
+.res-card h3, .res-card h4, .res-card h5 {
+    margin: 10px 5px; /* Add margin for spacing */
+}
+
+.res-card:hover{
+    border: 1px solid rgb(130, 126, 126);
+    cursor: pointer ;
+}
+
+.res-logo{
+    width: 100%;
+}
+
+.res-conatiner{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* padding-top: ; */
+}
