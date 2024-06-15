@@ -83,6 +83,17 @@ body{
     transform: scale(1.05); /* Slightly increase the size */
   }
 
+.shimmer-cards{
+    margin: 15px;
+    width: 200px;
+    height: 350px;
+    background-color: rgb(214, 210, 210);
+  }
+
+.shimmer-container{
+    display: flex;
+    justify-content: flex-start ;
+}
 
 .login-btn{
     padding: 0px 20px;

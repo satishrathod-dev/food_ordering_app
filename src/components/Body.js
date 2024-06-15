@@ -3,6 +3,7 @@ import React, { useEffect, useState } from "react";
 
 import restList from "../utils/mockdata";
 import RestaurantCard from "./RestaurantCard";
+import Shimmer from "./Shimmer";
 
 const Body = () => {
   const [listOfRestaurant, setListOfRestaurant] = useState([]);
@@ -38,6 +39,10 @@ const Body = () => {
     );
     setListOfRestaurant(filteredList);
   };
+
+  if (listOfRestaurant.length === 0) {
+    return <Shimmer />;
+  }
 
   return (
     <div className="body">
