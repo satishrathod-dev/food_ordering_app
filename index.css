@@ -42,9 +42,12 @@ body{
     width: 180px;
     background-color: #f0f0f0;
     margin: 5px;
-    padding: 10px;
-    /* border: 1px solid black; */
-    /* border-radius: 5px; */
+    padding: 10px; 
+    /* border: 1px solid black;
+    border-radius: 5px; */
+    /* justify-content: center;
+    width: 100%;
+    align-items:; */
 }
 .res-card h3, .res-card h4, .res-card h5 {
     margin: 10px 5px; /* Add margin for spacing */
@@ -125,4 +128,8 @@ body{
 
 .filter{
     display: flex;
+}
+
+#error-text{
+    color: red;
 }

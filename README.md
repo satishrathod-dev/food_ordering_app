@@ -40,7 +40,7 @@
 - --> Contact
   \*/
 
-Two types of Export/Import
+# Two types of Export/Import
 
 - Default Export/Import
 
@@ -51,3 +51,8 @@ import Component from "path";
 
 export const Component;
 import {Component} from "path";
+
+# 2 types of routing in Web Apps
+
+- Client Side Routing
+- Server Side Routing
