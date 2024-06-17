@@ -40,6 +40,7 @@ body{
 .res-card{
     /* display: flex; */
     width: 180px;
+    height: 400px;
     background-color: #f0f0f0;
     margin: 5px;
     padding: 10px; 
@@ -67,6 +68,10 @@ body{
     flex-wrap: wrap;
     justify-content: flex-start;
     /* padding-top: ; */
+}
+.res-container a {
+    text-decoration: none !important; /* Remove underline */
+    color: inherit !important; /* Inherit color from parent */
 }
 
 .filter-btn{
@@ -132,4 +137,44 @@ body{
 
 #error-text{
     color: red;
+}
+
+.menu{
+    display: flex;
+     display: flex;
+    flex-direction: column; /* Arrange children in a column */
+    align-items: center; /* Center children horizontally */
+    justify-content: center; /* Center children vertically */
+    text-align: center; /* Center text */
+    padding: 20px;
+    font-weight: 500;
+    box-shadow: ;
+}
+
+.menu-items{
+    background-color: rgb(248, 239, 239);
+    padding: 20px;
+    border: 1px solid rgb(212, 212, 212);
+}
+
+.menu h1 {
+    margin-bottom: 10px; /* Add spacing below h1 */
+}
+
+.menu p {
+    margin-bottom: 10px; /* Add spacing below p */
+    color: solid black;
+}
+
+.menu h2 {
+    magin-bottom: 10px; /* Add spacing below h3 */
+}
+.menu ul {
+    list-style: disc;
+    padding-left: 20px; /* Indent the list items */
+    text-align: left;
+}
+
+.menu li {
+    margin-bottom: 10px; /* Add spacing between list items */
 }

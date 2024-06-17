@@ -4,6 +4,7 @@ import React, { useEffect, useState } from "react";
 import restList from "../utils/mockdata";
 import RestaurantCard from "./RestaurantCard";
 import Shimmer from "./Shimmer";
+import { Link } from "react-router-dom";
 
 const Body = () => {
   const [listOfRestaurant, setListOfRestaurant] = useState([]);
@@ -84,12 +85,14 @@ const Body = () => {
       </div>
       <div className="search">Search</div>
       <div className="res-container">
-        {/* {listOfRestaurant.map((restaurant) => (
-          <RestaurantCard key={restaurant.info.id} resData={restaurant} />
-        ))} */}
         {listOfRestaurant && listOfRestaurant.length > 0 ? (
           filteredRestarant.map((restaurant) => (
-            <RestaurantCard key={restaurant.info.id} resData={restaurant} />
+            <Link
+              key={restaurant.info.id}
+              to={"/restaurants/" + restaurant.info.id}
+            >
+              <RestaurantCard resData={restaurant} />
+            </Link>
           ))
         ) : (
           <p>No restaurants found</p>
