@@ -166,7 +166,7 @@ body{
 }
 
 .menu h2 {
-    magin-bottom: 10px; /* Add spacing below h3 */
+    margin-bottom: 10px; /* Add spacing below h3 */
 }
 .menu ul {
     list-style: disc;
