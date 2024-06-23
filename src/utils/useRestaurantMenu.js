@@ -40,7 +40,7 @@ const useRestaurantMenu = (resId) => {
         throw new Error("Network response was not ok");
       }
       const json = await response.json();
-      console.log(json); // Print the response structure
+      // console.log(json); // Print the response structure
       setResInfo(json.data);
     } catch (error) {
       console.error("Failed to fetch data:", error);
