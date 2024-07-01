@@ -1,11 +1,14 @@
 {
+  "homepage": "https://github.com/satishrathod-dev.io/food_ordering_app",
   "name": "food_ordering_app",
   "version": "1.0.0",
   "description": "This is React Package",
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html",
-    "test": "jest"
+    "test": "jest",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
@@ -16,7 +19,6 @@
   "bugs": {
     "url": "https://github.com/satishrathod-dev/food_ordering_app/issues"
   },
-  "homepage": "https://github.com/satishrathod-dev/food_ordering_app#readme",
   "devDependencies": {
     "gh-pages": "^6.1.1",
     "parcel": "^2.12.0",
