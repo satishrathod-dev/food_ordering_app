@@ -1,5 +1,5 @@
 {
-  "name": "namste_react",
+  "name": "food_ordering_app",
   "version": "1.0.0",
   "description": "This is React Package",
   "scripts": {
@@ -9,15 +9,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/satishrathod-dev/namste_react.git"
+    "url": "git+https://github.com/satishrathod-dev/food_ordering_app.git"
   },
   "author": "Satish Rathod",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/satishrathod-dev/namste_react/issues"
+    "url": "https://github.com/satishrathod-dev/food_ordering_app/issues"
   },
-  "homepage": "https://github.com/satishrathod-dev/namste_react#readme",
+  "homepage": "https://github.com/satishrathod-dev/food_ordering_app#readme",
   "devDependencies": {
+    "gh-pages": "^6.1.1",
     "parcel": "^2.12.0",
     "postcss": "^8.4.38",
     "process": "^0.11.10",
