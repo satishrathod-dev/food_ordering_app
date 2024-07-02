@@ -19,7 +19,7 @@
 - Swiggy API: For fetching real-time data.
 
 # Installation
-(1) Clone the repository: using below cmds
+(1) Clone the repository: using:-  
 git clone https://github.com/your-username/food-ordering-app.git
 cd food-ordering-app
 
