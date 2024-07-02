@@ -17,3 +17,19 @@
 - Hooks and Custom Hooks: For managing state and side effects.
 - Redux: For state management.
 - Swiggy API: For fetching real-time data.
+
+# Installation
+(1) Clone the repository: using below cmds
+git clone https://github.com/your-username/food-ordering-app.git
+cd food-ordering-app
+
+(2) Install dependencies:
+npm install
+
+(3) Run the application:
+npm start
+
+(4) Usage
+Add/remove items from the cart from the accordian functionality
+Search for food items.
+View online/offline status.
