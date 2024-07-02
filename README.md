@@ -29,7 +29,10 @@ npm install
 (3) Run the application:
 npm start
 
-(4) Usage
-Add/remove items from the cart from the accordian functionality
-Search for food items.
-View online/offline status.
+(4) Usage:- 
+Add/Remove Items from Cart: Manage items in your cart easily.
+Search Functionality: Quickly find specific food items.
+Real-time Status: View online/offline status of items.
+User-Appealing UI: Enjoy a responsive and visually appealing user interface designed with Tailwind CSS.
+Routing: Navigate seamlessly between different pages of the application.
+Accordions: Access organized and collapsible content sections.
